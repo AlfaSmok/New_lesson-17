@@ -1,0 +1,17 @@
+.advant__cart {
+  max-width: 36.3rem;
+  @include centered;
+  flex-direction: column;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+@media (max-width: 48rem) {
+  .advant__cart {
+    max-width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: initial;
+    text-align: left;
+  }
+}
