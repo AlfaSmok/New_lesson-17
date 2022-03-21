@@ -5,6 +5,14 @@
   flex-shrink: 0;
   text-align: center;
 }
+.advant__cart:nth-child(1) {
+  margin-left: 1.8rem;
+  margin-right: 7rem;
+}
+.advant__cart:nth-child(2) {
+  width: 29.4rem;
+  margin-right: 6.7rem;
+}
 
 @media (max-width: 48rem) {
   .advant__cart {
@@ -13,5 +21,13 @@
     justify-content: flex-start;
     flex-direction: initial;
     text-align: left;
+  }
+  .advant__cart:nth-child(1) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .advant__cart:nth-child(2) {
+    width: 100%;
+    margin-right: 0;
   }
 }
